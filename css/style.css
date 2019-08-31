@@ -1,0 +1,240 @@
+
+/* Author Name : Anik Saha;
+	Author Email : aniksaha@codertrust.com;
+*/
+
+/* 
+===========Index==========
+	1. HOME
+	2. HOW IT WORKS
+	3. DISCOVER A PROJECT
+	4. BBLOG
+	5. FIND OUT MORE
+==========================
+*/
+
+/* Global CSS */
+.no-padding{
+	padding: 0px;
+}
+
+/* Navigation Bar Start */
+.navbar-new {
+	background-color: #fff;
+	padding: 25px 0px;
+}
+.nav-link {
+	color: #989898;
+	font-size: 15px;
+	margin: 0px 10px;
+}
+
+/* Section One Part Start */
+.sec-one {
+	background: url(../img/icrowdme-PSD---cssauthor.png);
+	background-size: cover;
+	background-position: center;
+	padding-top: 220px;
+}
+.home-head {
+	color: #fff;
+    font-size: 42px;
+}
+.home-para {
+	color: #fff;
+    text-align: center;
+    font-size: 34px;
+}
+.btn-custom-one {
+	margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+    padding: 18px 40px;
+    background-color: #99c50a;
+    font-size: 18px;
+    border: none;
+}
+
+/* Section Two Part Start */
+.sec-two {
+	padding: 75px 0px;
+}
+.img-one {
+	margin: 0 auto;
+	display: block;
+}
+.how-head {
+	color: #515151;
+	margin: 40px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.how-para {
+	color: #989898;
+    margin: 25px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Section Three Part Start */
+.work-one{
+	background-color: #e2f8ff;
+	padding-bottom: 45px;
+}
+.work-two{
+	background-color: #f5f9eb;
+	padding-bottom: 45px;
+}
+.img-two{
+	margin: 0 auto;
+    display: block;
+    margin-top: 60px;
+}
+.work-head{
+	color: #515151;
+    font-size: 26px;
+    margin-top: 27px;
+}
+.work-para{
+	color: #515151;
+    padding-right: 60px;
+    margin-top: 30px;
+}
+.btn-custom-two{
+	background-color: #26a6d1;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+}
+.btn-custom-three{
+	background-color: #add136;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* Section Four Part Start */
+.sec-four {
+	padding: 75px 0px;
+}
+.project-head {
+	color: #515151;
+}
+.project-para {
+	color: #989898;
+    margin: 25px 0px;
+    font-size: 18px;
+}
+.btn-custom-four {
+	background-color: transparent;
+    margin-top: 30px;
+    padding: 14px 20px;
+    border: 1px solid #838383;
+    color: #838383;
+}
+.card-deck {
+	margin-top: 20px;
+}
+.card {
+	border-radius: 13px;
+}
+.btn-custom-five {
+	position: absolute;
+    top: 36%;
+    right: 5%;
+    background-color: #26a6d1;
+}
+.card-title {
+	color: #515151;
+}
+.card-para {
+	color: #989898;
+	text-align: justify;
+}
+.card-text {
+	margin-top: 70px;
+	margin-bottom: 15px!important;
+} 
+.left {
+	margin-left: 24px;
+}
+.underline {
+	border-bottom: 1px solid #d6d6d6;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.icon {
+	margin: 20px 0px 0px 130px;
+    color: #626262;
+}
+.fa.fa-caret-right {
+	margin-left: 15px;
+    font-size: 20px;
+    color: #add136;
+}
+
+/* Section Five Part Start */
+.sec-five {
+	padding: 60px 0px;
+}
+.img-three{
+	margin: 0 auto;
+    display: block;
+}
+
+/* Footer Part Start */
+.foot {
+	box-shadow: inset 0 1px #d2caca;
+	padding: 20px 0px;
+}
+.foot-para {
+	color: #848484;
+}
+
+/*..............Media Query...............*/
+
+/*-----Mobile Device-----*/
+@media (max-width: 500px){
+nav img {
+	margin-left: 10px;
+}
+.fa.fa-bars {
+	color: #8FC63D;
+    font-size: 30px;
+    margin: 5px 5px 0px 0px;
+}    
+.home-head {
+	text-align: center;
+}
+.work-head {
+	text-align: center;
+}
+.work-para {
+    padding: 0px;
+    text-align: center;
+}
+.btn-custom-two{
+	margin: 0 auto;
+    display: block;
+}
+.btn-custom-three{
+	margin: 0 auto;
+    display: block;
+}
+
+}
+/*-----Tab/Small Device-----*/
+@media (min-width: 501px) and (max-width: 768px){
+
+}
+
+/*-----Laptop/Desktop Device-----*/
+@media (min-width: 769px) and (max-width: 1200px){
+
+}
+
+/*-----Large Device-----*/
+@media (min-width: 1201px){
+
+}
